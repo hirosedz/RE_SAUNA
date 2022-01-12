@@ -16,3 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::group(['prefix' => 'user'], function () {
+    Route::get('profile/create' , 'Admin\ProfileController@add');
+    Route::get('profile/edit' , 'Admin\ProfileController@edit');
+});
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
