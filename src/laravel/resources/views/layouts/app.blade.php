@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-<head>
+<head class="text-center">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -42,13 +42,13 @@
                         @guest
                             @if (Route::has('login'))
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                    <a class="nav-link" href="{{ route('login') }}">{{ __('SIGN IN') }}</a>
                                 </li>
                             @endif
 
                             @if (Route::has('register'))
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                    <a class="nav-link" href="{{ route('register') }}">{{ __('SIGN UP') }}</a>
                                 </li>
                             @endif
                         @else
@@ -75,7 +75,7 @@
             </div>
         </nav>
 
-        <main class="py-4">
+        <main class=".align-bottom">
             @yield('content')
         </main>
     </div>

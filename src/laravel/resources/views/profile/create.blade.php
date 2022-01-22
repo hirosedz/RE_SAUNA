@@ -6,7 +6,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 mx-auto">
-                <h2>プロフィール新規作成</h2>
+                <h1 align="center">RE:SAUNA</h1>
                 <form action="" method="post" enctype="multipart/form-data">
 
                     @if (count($errors) > 0)
@@ -17,31 +17,31 @@
                         </ul>
                     @endif
                     <div class="form-group row">
-                        <label class="col-md-2" for="name"> 氏名</label>
+                        <label class="col-md-2" for="name"> name</label>
                         <div class="col-md-10">
                             <input type="text" class="form-control" name="name" value="{{ old('name') }}">
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label class="col-md-2" for="gender">性別</label>
+                        <label class="col-md-2" for="email">email</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="gender" value="{{ old("gender") }}">
+                            <input type="text" class="form-control" name="email" value="{{ old('email') }}">
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label class="col-md-2" for="hobby">趣味</label>
+                        <label class="col-md-2" for="password">password</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="hobby" value="{{ old("hobby") }}">
+                            <input type="text" class="form-control" name="password" value="{{ old('password') }}">
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label class="col-md-2" for="introduction">自己紹介欄</label>
+                        <label class="col-md-2" for="birth">birth</label>
                         <div class="col-md-10">
-                            <textarea class="form-control" name="introduction" rows="20">{{ old('introduction') }}</textarea>
+                        <input type="text" class="form-control" name="birth" value="{{ old('birth') }}">
                         </div>
                     </div>
                     {{ csrf_field() }}
-                    <input type="submit" class="btn btn-primary" value="更新">
+                    <input type="submit" class="btn btn-primary" value="SIGN UP">
                 </form>
             </div>
         </div>
