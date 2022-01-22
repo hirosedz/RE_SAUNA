@@ -21,6 +21,10 @@ Route::get('/signup', function () {
     return view('profile/create');
 });
 
+Route::get('/toppage', function() {
+    return view('toppage/top');
+});
+
 Route::group(['prefix' => 'user'], function () {
     Route::get('profile/create' , 'Admin\ProfileController@add');
     Route::get('profile/edit' , 'Admin\ProfileController@edit');
