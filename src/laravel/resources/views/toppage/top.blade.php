@@ -1,21 +1,41 @@
 @extends ('layouts.toppage')
 
 @section ('content')
-<div class="container">
+<div class="container-fluid">
     <div>
-        <h3 class="mx-auto" style="width: 200px;">user name</h3>
-        <div class="mx-auto" style="width: 200px;">
-            <div>
-                <span class="border border-primary">ベストスコアのsetデータ</span>
+    <header class="header">
+            <div class="header-logo">
+                <div class="circle"></div>
+                <h1><span>The best</span><br/><span>Your</span><br/><span>SAUNA</span><br/><span>Experiece</span><br/><span>Return</span><br/></h1>
             </div>
+    </header>
+    <div class="username">
+        <h3>user name</h3>
+    </div>
+    <div class="bestscore mx-auto container-fluid">
+        <div class="row">
+            <div class="col">set X</div>
+            <div class="score-cicle">Best Score</div>
+            <h5>sauna</h5><h5>water</h5>
+            <h5>Time</h5><h4>00</h4><h4>00</h4><h4>00</h4>
         </div>
-        <div class="container">
-            <ul class="mx-auto" style="width: 200px;">
-                    <div>直近のサウナデータindex</div>
-                    <li>data1</li>
-                    <li>data2</li>
-                    <li>date3</li>
-            </ul>
+    </div>
+        <div class="lastdata mx-auto" style="padding:20px;">
+            <div style="width: 600px;">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="score-circle">Best score</div>
+                        </div>
+                        <div class="col-4">
+                            <h5>date</h5>
+                        </div>
+                        <div class="col-4">
+                            <h5>sauna</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

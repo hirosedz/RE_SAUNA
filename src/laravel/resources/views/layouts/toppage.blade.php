@@ -17,23 +17,30 @@
         <!-- Styles -->
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <link href="{{ asset('css/toppage.css') }}" rel="stylesheet">
+
     </head>
 
     <body>
-        <header>
-            <div class="row text-center align-middle">
-                <div class="col-md-12">
-                    <div>LOGO APP</div>
-                </div>
-            </div>
-        </header>
         <main>
             @yield('content')
         </main>
     </body>
-    <footer class="footer mt-auto py-3">
-        <div class="container">
-            <span class="text-muted">4icons here.</span>
+    <footer class="footer mx-auto">
+        <div class="fixed-bottom mx-auto" style="height:30px; width: 600px; background-color:yellow;">
+            <div class="row">
+                <div class="col-6 col-md">
+                    <a>icon</a>
+                </div>
+                <div class="col-6 col-md">
+                    <a>icon</a>
+                </div>
+                <div class="col-6 col-md">
+                    <a>icon</a>
+                </div>
+                <div class="col-6 col-md">
+                    <a>icon</a>
+                </div>
+            </div>
         </div>
     </footer>
 </html>
