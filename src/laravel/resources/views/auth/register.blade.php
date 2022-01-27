@@ -3,19 +3,17 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8">
-
-                <div class="card-header">
-                    <h1 align="center">RE:SAUNA</h1>
-                </div>
+        <div class="col-md-12">
+            <div class="circle"></div>
+                <h1><span>The best</span><br/><span>Your</span><br/><span>SAUNA</span><br/><span>Experiece</span><br/><span>Return</span><br/></h1>
+            </div>
+        </div>
 
                 <div class="card-body">
-                    <form method="POST" action="{{ route('register') }}">
+                    <form method="POST" action="{{ route('register') }}" >
                         @csrf
 
-                        <div class="row my-2">
-                            <label for="name" class="col-md-4 col-form-label text-md-end"></label>
-
+                        <div class="row justify-content-center" style="margin: 10px;">
                             <div class="col-md-6">
                                 <input type="text" id="name" class="form-control @error('name') is-invalid @enderror" placeholder="name" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
                                 @error('name')
@@ -26,9 +24,7 @@
                             </div>
                         </div>
 
-                        <div class="row my-2">
-                            <label for="email" class="col-md-4 col-form-label text-md-end"></label>
-
+                        <div class="row justify-content-center" style="margin: 10px;">
                             <div class="col-md-6">
                                 <input type="email" id="email" class="form-control @error('email') is-invalid @enderror" placeholder="email" name="email" value="{{ old('email') }}" required autocomplete="email">
                                 @error('email')
@@ -39,9 +35,7 @@
                             </div>
                         </div>
 
-                        <div class="row my-2">
-                            <label for="password" class="col-md-4 col-form-label text-md-end"></label>
-
+                        <div class="row justify-content-center" style="margin: 10px;">
                             <div class="col-md-6">
                                 <input type="password" id="password" class="form-control @error('password') is-invalid @enderror" placeholder="password" name="password" required autocomplete="new-password">
                                 @error('password')
@@ -52,17 +46,15 @@
                             </div>
                         </div>
 
-                        <div class="row my-2">
-                            <label for="password-confirm" class="col-md-4 col-form-label text-md-end"></label>
-
+                        <div class="row justify-content-center" style="margin: 10px;">
                             <div class="col-md-6">
                                 <input id="password-confirm" type="password" class="form-control" placeholder="confirm password" name="password_confirmation" required autocomplete="new-password">
                             </div>
                         </div>
 
-                        <div class="row mb-0">
-                            <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
+                        <div class="row justify-content-center" style="margin: 20px;">
+                            <div class="col-md-6">
+                                <button type="submit" class="btn btn-primary" style="width: 300px;">
                                     {{ __('SIGN UP') }}
                                 </button>
                             </div>

@@ -2,7 +2,6 @@
 body {
   background-position: center;
   background: #a9e3f5;
-  font-family: "Lobster", cursive;
   color: #333333;
 }
 
@@ -23,8 +22,9 @@ body {
 h1 {
   color: #dcecf1;
   text-align: center;
+  font-family: "Lobster", cursive;
   line-height: 40px;
-  margin-top: -112px;
+  margin-top: -220px;
   transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
   /*-----------------------*/
   text-shadow: 1px 1px #227df5, 2px 2px #227df5, 3px 3px #227df5, 4px 4px #227df5, 5px 5px #227df5, 6px 6px #227df5, 7px 7px #227df5, 8px 8px #227df5, 9px 9px #227df5, 10px 10px #227df5, 11px 11px #227df5, 12px 12px #227df5, 13px 13px #227df5, 14px 14px #227df5, 15px 15px #227df5, 16px 16px #227df5, 17px 17px #227df5, 18px 18px #227df5, 19px 19px #227df5, 20px 20px #227df5, 21px 21px #227df5, 22px 22px 6px #062752;
@@ -40,7 +40,7 @@ span:nth-child(1), span:nth-child(9), span:nth-child(5) {
 
 .username {
   height: 20px;
-  margin: 20px;
+  margin: 40px;
   text-align: center;
 }
 
@@ -54,6 +54,15 @@ span:nth-child(1), span:nth-child(9), span:nth-child(5) {
   border-radius: 30px;
 }
 
+.card {
+  height: 100px;
+  width: 550px;
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: #f8d8c1;
+  border: 1px solid;
+}
+
 .lastdata {
   height: 380px;
   width: 600px;
@@ -62,12 +71,4 @@ span:nth-child(1), span:nth-child(9), span:nth-child(5) {
   margin: 10px;
   border: 2px solid #747474;
   border-radius: 30px;
-}
-
-.row {
-  height: 100px;
-  width: 400px;
-  margin: 10px;
-  background-color: #e2e0e0;
-  border: 2px solid #747474;
 }

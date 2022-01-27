@@ -26,19 +26,19 @@
         </main>
     </body>
     <footer class="footer mx-auto">
-        <div class="fixed-bottom mx-auto" style="height:30px; width: 600px; background-color:yellow;">
+        <div class="fixed-bottom mx-auto" style="height:30px; width: 600px; background-color:white;">
             <div class="row">
                 <div class="col-6 col-md">
-                    <a>icon</a>
+                    <a>home</a>
                 </div>
                 <div class="col-6 col-md">
-                    <a>icon</a>
+                    <a>create</a>
                 </div>
                 <div class="col-6 col-md">
-                    <a>icon</a>
+                    <a>index</a>
                 </div>
                 <div class="col-6 col-md">
-                    <a>icon</a>
+                    <a>edit</a>
                 </div>
             </div>
         </div>
