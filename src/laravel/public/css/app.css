@@ -11309,7 +11309,7 @@ body {
   margin-top: 100px;
 }
 
-h1, .h1 {
+h1.logo, .logo.h1 {
   color: #dcecf1;
   text-align: center;
   font-family: "Lobster", cursive;
@@ -11320,10 +11320,9 @@ h1, .h1 {
   text-shadow: 1px 1px #227df5, 2px 2px #227df5, 3px 3px #227df5, 4px 4px #227df5, 5px 5px #227df5, 6px 6px #227df5, 7px 7px #227df5, 8px 8px #227df5, 9px 9px #227df5, 10px 10px #227df5, 11px 11px #227df5, 12px 12px #227df5, 13px 13px #227df5, 14px 14px #227df5, 15px 15px #227df5, 16px 16px #227df5, 17px 17px #227df5, 18px 18px #227df5, 19px 19px #227df5, 20px 20px #227df5, 21px 21px #227df5, 22px 22px 6px #062752;
 }
 
-span:nth-child(3), span:nth-child(7) {
+.hoge span:nth-child(3), .hoge span:nth-child(7) {
   font-size: 30px;
 }
-
-span:nth-child(1), span:nth-child(9), span:nth-child(5) {
+.hoge span:nth-child(1), .hoge span:nth-child(9), .hoge span:nth-child(5) {
   font-size: 60px;
 }

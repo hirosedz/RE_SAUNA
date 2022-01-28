@@ -6,7 +6,7 @@
     <header class="header">
             <div class="header-logo">
                 <div class="circle"></div>
-                <h1><span>The best</span><br/><span>Your</span><br/><span>SAUNA</span><br/><span>Experiece</span><br/><span>Return</span><br/></h1>
+                <h1 calss="logo"><div class="hoge"><span>The best</span><br/><span>Your</span><br/><span>SAUNA</span><br/><span>Experiece</span><br/><span>Return</span><br/></h1></div>
             </div>
     </header>
     <div class="username">
