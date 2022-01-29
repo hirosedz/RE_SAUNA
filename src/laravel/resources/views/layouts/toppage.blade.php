@@ -26,7 +26,7 @@
             @yield('content')
         </main>
     </body>
-    <footer class="footer mx-auto">
+    <footer>
         <div class="fixed-bottom mx-auto" style="height:30px; width: 600px; background-color:white;">
             <div class="row">
                 <div class="col-6 col-md">

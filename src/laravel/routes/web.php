@@ -25,9 +25,8 @@ Route::get('/toppage', function() {
     return view('toppage/top');
 });
 
-Route::group(['prefix' => 'user'], function () {
-    Route::get('profile/create' , 'Admin\ProfileController@add');
-    Route::get('profile/edit' , 'Admin\ProfileController@edit');
+Route::get('/index', function() {
+    return view('index/index');
 });
 
 Auth::routes();
