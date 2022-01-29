@@ -33,4 +33,8 @@ Route::get('/saunadata', function() {
     return view('index/saunadata');
 });
 
+Route::get('/saunaname', function() {
+    return view('experience/saunaname');
+});
+
 Auth::routes();

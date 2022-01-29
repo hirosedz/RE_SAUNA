@@ -1,0 +1,58 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+body {
+    background-position: center;
+    background-color: rgb(218, 244, 252);
+    align-items: center;
+}
+
+.backbutton {
+    background-color: rgb(218, 244, 252);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3.facility {
+    margin: auto;
+    margin-bottom: 30px;
+    color: coral;
+    text-align: center;
+}
+
+.select {
+    height:30px;
+    width: 300px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(117, 117, 117);
+}
+
+button.new {
+    margin: auto;
+    height:30px;
+    width: 200px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    border: 2px solid rgb(117, 117, 117);
+}
+
+button.next {
+    margin: auto;
+    height:30px;
+    width: 100px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    border: 2px solid rgb(117, 117, 117);
+}
+
+
