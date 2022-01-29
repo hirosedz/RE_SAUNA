@@ -29,4 +29,8 @@ Route::get('/index', function() {
     return view('index/index');
 });
 
+Route::get('/saunadata', function() {
+    return view('index/saunadata');
+});
+
 Auth::routes();
