@@ -17,8 +17,8 @@ Route::get('/', function () {
     return view('toppage/top');
 });
 
-Route::get('/signup', function () {
-    return view('profile/create');
+Route::get('/user', function () {
+    return view('user/edit');
 });
 
 Route::get('/toppage', function() {

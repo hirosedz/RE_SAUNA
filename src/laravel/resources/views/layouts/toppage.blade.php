@@ -8,6 +8,7 @@
         <title>@yield('title')</title>
 
         <!-- Scripts -->
+        <script src="{{ asset('js/app.js') }}" defer></script>
 
         <!-- Fonts -->
         <link rel="dns-prefetch" href="https://fonts.gstatic.com">
@@ -16,6 +17,7 @@
         <!-- Styles -->
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <link href="{{ asset('css/toppage.css') }}" rel="stylesheet">
+
 
     </head>
 
