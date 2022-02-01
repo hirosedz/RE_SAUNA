@@ -14,7 +14,7 @@
         </div>
         <div class="row">
             <div class="col mx-auto">
-                <select style="width:400;">
+                <select>
                 <option value="test">test</option>
                 </select>
             </div>
@@ -25,7 +25,7 @@
     </main>
 
         <div>
-            <button class="next" onclick="location.href='./experience/saunaexperience'">Next</button>
+            <button class="next" onclick="location.href='./saunaexperience'">Next</button>
         </div>
 
 </div>

@@ -57,7 +57,7 @@
         </h5>
     </div>
     <div class="mx-auto">
-        <button class="next">done?</button>
+        <button class="next" onclick="location.href='./saunadata'">done?</button>
     </div>
 </div>
 @endsection

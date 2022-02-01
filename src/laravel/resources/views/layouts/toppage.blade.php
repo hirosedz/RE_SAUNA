@@ -30,16 +30,24 @@
         <div class="fixed-bottom mx-auto" style="height:30px; width: 600px; background-color:white;">
             <div class="row">
                 <div class="col-6 col-md">
-                    <a>home</a>
+                    <p>
+                        <a href="../toppage">home</a>
+                    </p>
                 </div>
                 <div class="col-6 col-md">
-                    <a>create</a>
+                    <p>
+                        <a href="../saunaname">create</a>
+                    </p>
                 </div>
                 <div class="col-6 col-md">
-                    <a>index</a>
+                    <p>
+                        <a href="../index">index</a>
+                    </p>
                 </div>
                 <div class="col-6 col-md">
-                    <a>edit</a>
+                    <p>
+                        <a href="../index">edit</a>
+                    </p>
                 </div>
             </div>
         </div>
