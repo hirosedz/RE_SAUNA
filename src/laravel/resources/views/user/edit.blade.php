@@ -21,7 +21,7 @@
                             @endforeach
                         </ul>
                     @endif
-                    <div class="form-group row"">
+                    <div class="form-group row">
                         <div class="col-md-10">
                             <input type="text" class="form-control" placeholder="name" name="name" value="{{ old('name') }}">
                         </div>

@@ -6,7 +6,10 @@
     <header class="header">
         <div class="row">
             <h3 class="index">記録一覧</h3>
-            <input type="text"></input>
+            <form action="自身のwebサイトURL" method="get">
+                <input type="search" name="search" placeholder="検索キーワードを入力してください" style="width: 500px; height: 40px;">
+                <input type="submit" name="submit" value="検索" style="height: 40px;">
+            </form>
         </div>
     </header>
 

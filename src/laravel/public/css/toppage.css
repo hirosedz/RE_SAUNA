@@ -8,6 +8,7 @@ body {
 .header {
   height: 220px;
   margin: 20px;
+  text-align: center;
 }
 
 .circle {
@@ -68,4 +69,10 @@ h1.logo {
   margin: 10px;
   border: 2px solid #747474;
   border-radius: 30px;
+}
+
+h3.index {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 10px;
 }
