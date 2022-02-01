@@ -3,10 +3,10 @@
 @section ('content')
 <div class="container-fluid">
     <div>
-    <header class="header">
+    <header class="header" style="margin-top: 150px;">
             <div class="header-logo">
                 <div class="circle">
-                    <h1 calss="logo"><div class="hoge"><span>The best</span><br/><span>Your</span><br/><span>SAUNA</span><br/><span>Experiece</span><br/><span>Return</span><br/></div>
+                    <h1 class="logo"><div class="hoge" style="margin-top: -80px;"><span>The best</span><br/><span>Your</span><br/><span>SAUNA</span><br/><span>Experiece</span><br/><span>Return</span><br/></div>
                     </h1>
                 </div>
             </div>

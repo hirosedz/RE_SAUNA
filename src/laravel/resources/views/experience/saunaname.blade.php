@@ -25,7 +25,7 @@
     </main>
 
         <div>
-            <button class="next">Next</button>
+            <button class="next" onclick="location.href='./experience/saunaexperience'">Next</button>
         </div>
 
 </div>

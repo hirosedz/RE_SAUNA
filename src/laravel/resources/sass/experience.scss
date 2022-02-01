@@ -27,6 +27,12 @@ h3.facility {
     text-align: center;
 }
 
+h4.experience {
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 .select {
     height:30px;
     width: 300px;
@@ -46,13 +52,20 @@ button.new {
 }
 
 button.next {
-    margin: auto;
+    margin: 0 auto;
     height:30px;
-    width: 100px;
+    width: 120px;
     text-align: center;
     background-color: rgb(255, 255, 255);
     margin: 10px;
     border: 2px solid rgb(117, 117, 117);
+}
+
+h5.addset {
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 

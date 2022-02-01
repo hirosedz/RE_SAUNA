@@ -21,12 +21,11 @@ body{
     margin-top: 100px;
 }
 
-.h1.logo {
+h1.logo {
     color: #dcecf1;
     text-align: center;
     font-family: 'Lobster', cursive;
     line-height: 40px;
-    margin-top: -220px;
     -moz-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
     -webkit-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
     -o-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);

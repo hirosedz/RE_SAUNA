@@ -11305,6 +11305,12 @@ h3.facility, .facility.h3 {
   text-align: center;
 }
 
+h4.experience, .experience.h4 {
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 .select {
   height: 30px;
   width: 300px;
@@ -11324,11 +11330,18 @@ button.new {
 }
 
 button.next {
-  margin: auto;
+  margin: 0 auto;
   height: 30px;
-  width: 100px;
+  width: 120px;
   text-align: center;
   background-color: white;
   margin: 10px;
   border: 2px solid #757575;
+}
+
+h5.addset, .addset.h5 {
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
 }
