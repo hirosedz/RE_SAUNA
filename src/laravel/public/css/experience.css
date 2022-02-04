@@ -11293,6 +11293,11 @@ body {
   align-items: center;
 }
 
+.center {
+  align-items: center;
+  justify-content: center;
+}
+
 .backbutton {
   background-color: #daf4fc;
   font-family: "Courier New", Courier, monospace;
@@ -11322,7 +11327,7 @@ h4.experience, .experience.h4 {
 button.new {
   margin: auto;
   height: 30px;
-  width: 200px;
+  width: 120px;
   text-align: center;
   background-color: white;
   margin: 10px;
@@ -11344,4 +11349,9 @@ h5.addset, .addset.h5 {
   margin-top: 40px;
   margin-bottom: 20px;
   text-align: center;
+}
+
+.choice {
+  height: 50px;
+  width: 350px;
 }

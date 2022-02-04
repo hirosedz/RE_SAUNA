@@ -15,6 +15,11 @@ body {
     align-items: center;
 }
 
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
 .backbutton {
     background-color: rgb(218, 244, 252);
     font-family: 'Courier New', Courier, monospace;
@@ -44,7 +49,7 @@ h4.experience {
 button.new {
     margin: auto;
     height:30px;
-    width: 200px;
+    width: 120px;
     text-align: center;
     background-color: rgb(255, 255, 255);
     margin: 10px;
@@ -68,4 +73,8 @@ h5.addset {
     text-align: center;
 }
 
+.choice {
+    height: 50px;
+    width: 350px;
+}
 

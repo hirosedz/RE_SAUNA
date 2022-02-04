@@ -13,13 +13,13 @@
             <h3 class="facility">サウナ施設</h3>
         </div>
         <div class="row">
-            <div class="col mx-auto">
-                <select>
+            <div class="col mx-auto justify-center">
+                <select class="choice">
                 <option value="test">test</option>
                 </select>
             </div>
-            <div class="col mx-auto">
-                <button class="new">新規登録</button>
+            <div class="col mx-auto justify-center">
+                <button class="new" onclick="location.href='/saunaname/new'">新規登録</button>
             </div>
         </div>
     </main>
