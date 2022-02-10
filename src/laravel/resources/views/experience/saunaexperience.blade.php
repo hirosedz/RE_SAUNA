@@ -9,43 +9,68 @@
     </header>
     <div>
         <div>
-            <h3 class="facility">サウナに行った日</h3>
+            <h3 class="facility">サウナに行った日
+                <input type="date" style="text-center"></input></h3>
 
             <h4 class="experience">サウナ体験記録</h4>
 
             <div class="card">
                 <div class="row">
-                    <div class="col">set1 Score</div>
+                    <div class="col text-center">set1 Score<input type="number" style="width: 80px;" placeholder="score"></input></div>
                     </div>
                     <div class="row justify-content-start">
-                        <div class="col">sauna  00C</div><div class="col">water  00C</div>
+                        <div class="col text-center">
+                            <input type="number" style="width: 130px;" placeholder="sauna degree"></input>
+                        </div>
+                        <div class="col text-center">
+                            <input type="number" style="width: 130px;" placeholder="water degree"></input>
+                        </div>
                     </div>
                     <div class="row justify-content-end">
-                        <div class="col">Time</div><div class="col">00</div><div class="col">00</div><div class="col">00</div>
+                        <div class="col text-center">Time</div>
+                        <div class="col"><input type="number" style="width: 100px;" placeholder="sauna Time"></input></div>
+                        <div class="col"><input type="number" style="width: 100px;" placeholder="water Time"></input></div>
+                        <div class="col"><input type="number" style="width: 100px;" placeholder="air Time"></input></div>
                     </div>
                 </div>
             </div>
             <div class="card">
                 <div class="row">
-                    <div class="col">set2 Score</div>
+                    <div class="col text-center">set2 Score<input type="number" style="width: 80px;" placeholder="score"></input></div>
                     </div>
                     <div class="row justify-content-start">
-                        <div class="col">sauna  00C</div><div class="col">water  00C</div>
+                        <div class="col text-center">
+                            <input type="number" style="width: 130px;" placeholder="sauna degree"></input>
+                        </div>
+                        <div class="col text-center">
+                            <input type="number" style="width: 130px;" placeholder="water degree"></input>
+                        </div>
                     </div>
                     <div class="row justify-content-end">
-                        <div class="col">Time</div><div class="col">00</div><div class="col">00</div><div class="col">00</div>
+                        <div class="col text-center">Time</div>
+                        <div class="col"><input type="number" style="width: 100px;" placeholder="sauna Time"></input></div>
+                        <div class="col"><input type="number" style="width: 100px;" placeholder="water Time"></input></div>
+                        <div class="col"><input type="number" style="width: 100px;" placeholder="air Time"></input></div>
                     </div>
                 </div>
             </div>
             <div class="card">
                 <div class="row">
-                    <div class="col">set3 Score</div>
+                    <div class="col text-center">set3 Score<input type="number" style="width: 80px;" placeholder="score"></input></div>
                     </div>
                     <div class="row justify-content-start">
-                        <div class="col">sauna  00C</div><div class="col">water  00C</div>
+                        <div class="col text-center">
+                            <input type="number" style="width: 130px;" placeholder="sauna degree"></input>
+                        </div>
+                        <div class="col text-center">
+                            <input type="number" style="width: 130px;" placeholder="water degree"></input>
+                        </div>
                     </div>
                     <div class="row justify-content-end">
-                        <div class="col">Time</div><div class="col">00</div><div class="col">00</div><div class="col">00</div>
+                        <div class="col text-center">Time</div>
+                        <div class="col"><input type="number" style="width: 100px;" placeholder="sauna Time"></input></div>
+                        <div class="col"><input type="number" style="width: 100px;" placeholder="water Time"></input></div>
+                        <div class="col"><input type="number" style="width: 100px;" placeholder="air Time"></input></div>
                     </div>
                 </div>
             </div>

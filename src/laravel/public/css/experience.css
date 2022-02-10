@@ -11293,6 +11293,10 @@ body {
   align-items: center;
 }
 
+.card {
+  margin: 10px;
+}
+
 .center {
   align-items: center;
   justify-content: center;
@@ -11306,13 +11310,13 @@ body {
 h3.facility, .facility.h3 {
   margin: auto;
   margin-bottom: 30px;
-  color: coral;
+  color: #242323;
   text-align: center;
 }
 
 h4.experience, .experience.h4 {
   margin: auto;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-align: center;
 }
 

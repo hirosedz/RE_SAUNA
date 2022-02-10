@@ -15,6 +15,10 @@ body {
     align-items: center;
 }
 
+.card  {
+    margin: 10px;
+}
+
 .center {
     align-items: center;
     justify-content: center;
@@ -28,13 +32,13 @@ body {
 h3.facility {
     margin: auto;
     margin-bottom: 30px;
-    color: coral;
+    color: rgb(36, 35, 35);
     text-align: center;
 }
 
 h4.experience {
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
