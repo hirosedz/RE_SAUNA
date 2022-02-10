@@ -9,6 +9,7 @@
 
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
+        <script src="https://kit.fontawesome.com/f53f1d2c99.js" crossorigin="anonymous"></script>
 
         <!-- Fonts -->
         <link rel="dns-prefetch" href="https://fonts.gstatic.com">
@@ -26,19 +27,27 @@
         </main>
     </body>
     <footer>
-        <div class="fixed-bottom mx-auto" style="height:30px; width: 600px; background-color:white;">
-            <div class="row">
-                <div class="col-6 col-md">
-                    <a>home</a>
+        <div class="fixed-bottom mx-auto" style="height:30px; width: 650px; background-color:white;">
+        <div class="row">
+                <div class="col-3 text-center">
+                    <span>
+                        <a href="../toppage"><i class="fa-solid fa-house-chimney"></i></a>
+                    </span>
                 </div>
-                <div class="col-6 col-md">
-                    <a>create</a>
+                <div class="col-3 text-center">
+                    <span>
+                        <a href="../saunaname"><i class="fa-solid fa-circle-plus"></i></a>
+                    </span>
                 </div>
-                <div class="col-6 col-md">
-                    <a>index</a>
+                <div class="col-3 text-center">
+                    <span>
+                        <a href="../index"><i class="fa-solid fa-book-open"></i></a>
+                    </span>
                 </div>
-                <div class="col-6 col-md">
-                    <a>edit</a>
+                <div class="col-3 text-center">
+                    <span>
+                        <a href="../index"><i class="fa-solid fa-pen"></i></a>
+                    </span>
                 </div>
             </div>
         </div>

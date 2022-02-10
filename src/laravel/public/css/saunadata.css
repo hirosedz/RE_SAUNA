@@ -11311,7 +11311,7 @@ body {
 .card {
   height: 150px;
   width: 550px;
-  position: relative;
+  margin-left: 200px;
   margin-bottom: 10px;
   background-color: #daf4fc;
   border: 1px solid;

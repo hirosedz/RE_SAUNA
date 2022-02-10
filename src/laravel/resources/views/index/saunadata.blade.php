@@ -3,13 +3,13 @@
 @section ('content')
 <div class="container-fluid">
     <header class="header" style="height: 200px;">
-        <div class="row">
+        <div class="row text-center">
             <h4 class="date">yy/mm/dd</h4>
             <h2 class="saunaname">SAUNA_NAME</h2>
         </div>
     </header>
 
-    <div class="datalist mx-auto" style="height: 700px;">
+    <div class="datalist text-center" style="height: 700px;">
 
             <div class="card">
                 <div class="row">
