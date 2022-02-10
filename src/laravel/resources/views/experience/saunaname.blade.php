@@ -4,7 +4,7 @@
 <div class="container">
     <header style="height: 150px;">
         <div class="backbutton">
-            <button>back</button>
+        <a href="#" onclick="history.back(-1);return false;"><i class="fa-solid fa-arrow-left"></i></a>
         </div>
     </header>
     <main style="height: 450px;">

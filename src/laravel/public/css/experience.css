@@ -11302,11 +11302,6 @@ body {
   justify-content: center;
 }
 
-.backbutton {
-  background-color: #daf4fc;
-  font-family: "Courier New", Courier, monospace;
-}
-
 h3.facility, .facility.h3 {
   margin: auto;
   margin-bottom: 30px;
