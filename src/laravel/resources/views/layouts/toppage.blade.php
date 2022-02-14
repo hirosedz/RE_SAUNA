@@ -46,7 +46,7 @@
                 </div>
                 <div class="col-3 text-center">
                     <span>
-                        <a href="../index"><i class="fa-solid fa-pen"></i></a>
+                        <a href="../user"><i class="fa-solid fa-pen"></i></a>
                     </span>
                 </div>
             </div>

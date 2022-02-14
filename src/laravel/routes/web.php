@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::group(['middleware' => 'auth'], function(){
     Route::get('/','ToppageController@show')->middleware('auth');
     Route::get('/toppage', 'ToppageController@show')->middleware('auth');
+    Route::get('/user', 'UserController@show')->middleware('auth');
     Route::get('index', 'IndexController@show')->middleware('auth');
     Route::get('index/saunadata', 'IndexController@detail')->middleware('auth');
     Route::get('saunaname', 'SaunaNameController@show')->middleware('auth');
@@ -32,9 +33,9 @@ Route::group(['middleware' => 'auth'], function(){
     // Route::get('news/delete','Admin\NewsController@delete')->middleware('auth');
 
 
-Route::get('/user', function () {
-    return view('user/edit');
-});
+// Route::get('/user', function () {
+//     return view('user/edit');
+// });
 
 
 // Route::get('/saunaname/new', function() {
