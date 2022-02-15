@@ -1,0 +1,24 @@
+
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+body{
+    background-position: center;
+    background: #cef0fa;
+    color: rgb(51, 51, 51);
+}
+
+.card-body{
+    text-align: center;
+    margin-top: 40px;
+}
+

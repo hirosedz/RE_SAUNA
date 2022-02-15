@@ -1,0 +1,42 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+body {
+    background-position: center;
+    background-color: rgb(218, 244, 252);
+    align-items: center;
+}
+
+.datalist {
+    margin: auto;
+    text-align: center;
+}
+
+.datascore {
+    margin: auto;
+    height:100px;
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    border: 2px solid rgb(117, 117, 117);
+    border-radius: 30px;
+}
+
+.card{
+    height: 150px;
+    width: 550px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    background-color: rgb(218, 244, 252);
+    border: 1px solid;
+}
+
+

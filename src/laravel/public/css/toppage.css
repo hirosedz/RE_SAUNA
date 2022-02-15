@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+body {
+  background-position: center;
+  background: #a9e3f5;
+  color: #333333;
+}
+
+.header {
+  height: 220px;
+  margin: 20px;
+  text-align: center;
+}
+
+.circle {
+  margin: auto;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  background: #24a7e4;
+  margin-top: 100px;
+}
+
+h1.logo {
+  color: #dcecf1;
+  text-align: center;
+  font-family: "Lobster", cursive;
+  line-height: 40px;
+  transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
+  text-shadow: 1px 1px #227df5, 2px 2px #227df5, 3px 3px #227df5, 4px 4px #227df5, 5px 5px #227df5, 6px 6px #227df5, 7px 7px #227df5, 8px 8px #227df5, 9px 9px #227df5, 10px 10px #227df5, 11px 11px #227df5, 12px 12px #227df5, 13px 13px #227df5, 14px 14px #227df5, 15px 15px #227df5, 16px 16px #227df5, 17px 17px #227df5, 18px 18px #227df5, 19px 19px #227df5, 20px 20px #227df5, 21px 21px #227df5, 22px 22px 6px #062752;
+}
+
+.hoge span:nth-child(3), .hoge span:nth-child(7) {
+  font-size: 30px;
+}
+.hoge span:nth-child(1), .hoge span:nth-child(9), .hoge span:nth-child(5) {
+  font-size: 60px;
+}
+
+.username {
+  height: 20px;
+  margin: 40px;
+  text-align: center;
+}
+
+.bestscore {
+  margin: auto;
+  height: 100px;
+  width: 600px;
+  background-color: white;
+  margin: 10px;
+  border: 2px solid #757575;
+  border-radius: 30px;
+}
+
+.card {
+  height: 100px;
+  width: 550px;
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: #f8d8c1;
+  border: 1px solid;
+}
+
+.lastdata {
+  height: 380px;
+  width: 600px;
+  background-color: white;
+  padding: 100px 300px;
+  margin: 10px;
+  border: 2px solid #747474;
+  border-radius: 30px;
+}
+
+h3.index {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
