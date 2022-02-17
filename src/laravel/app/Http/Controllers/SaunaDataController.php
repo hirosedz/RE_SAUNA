@@ -4,15 +4,15 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class IndexController extends Controller
+class SaunaDataController extends Controller
 {
     //
-    public function show ()
+    public function showindex()
     {
         return view('index/index');
     }
 
-    public function detail ()
+    public function showdetail ()
     {
         return view('index/saunadata');
     }
