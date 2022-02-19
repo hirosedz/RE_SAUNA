@@ -13,7 +13,9 @@
         </div>
         <div class="row justify-center">
             <div class="col">
-                <input type="text" style="width: 400px; margin-left: 150px;"></input>
+                <form action="{{ action('SaunaNameController@create') }}" method="post">
+                    <input type="text" style="width: 400px; margin-left: 150px;" value="{{ old('saunaname') }}"></input>
+                </form>
             </div>
         </div>
         <div>
