@@ -8,10 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class SaunaName extends Model
 {
     // use HasFactory;
+    protected $table = 'saunaname';
+
     protected $guarded = array('id');
 
     public static $rules = array(
-        'saunaname' => 'required'
+        'saunaname' => ['required', 'max:100']
     );
-
 }

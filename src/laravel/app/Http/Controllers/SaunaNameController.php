@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use App\SaunaName;
+use App\Models\SaunaName;
 
 class SaunaNameController extends Controller
 {
@@ -18,11 +18,13 @@ class SaunaNameController extends Controller
         return view('experience/saunaname_new');
     }
 
-    public function create ()
+    public function create (Request $request)
     {
         $this->validate($request, SaunaName::$rules);
 
-        $saunaname = New SaunaName();
+        $saunaname = New SaunaName;
+        $saunaname->saunaname = $request->saunaname;
+        $saunaname->save();
 
         return redirect("saunaexperience");
     }
