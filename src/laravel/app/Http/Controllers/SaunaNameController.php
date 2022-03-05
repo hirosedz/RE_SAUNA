@@ -22,8 +22,20 @@ class SaunaNameController extends Controller
     {
         $this->validate($request, SaunaName::$rules);
 
+        $tmp = SaunaName::where('saunaname',$request->saunaname)
+            ->where('user_id',$request->user_id)
+            ->get();
+            echo($tmp);
+
+        if(!is_null($tmp)){
+            return redirect('saunaname/new')
+            ->withErrors('サウナ名が重複しています')
+            ->withInput($request->data);
+            }
+
         $saunaname = New SaunaName;
         $saunaname->saunaname = $request->saunaname;
+        $saunaname->user_id = $request->user_id;
         $saunaname->save();
 
         return redirect("saunaexperience");

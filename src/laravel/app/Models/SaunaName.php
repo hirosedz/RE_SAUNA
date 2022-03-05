@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class SaunaName extends Model
 {
     // use HasFactory;
-    protected $table = 'saunaname';
+    protected $table = 'saunanames';
 
     protected $guarded = array('id');
 
