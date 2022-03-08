@@ -13,37 +13,21 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('toppage/top');
-});
-
-Route::get('/user', function () {
-    return view('user/edit');
-});
-
-Route::get('/toppage', function() {
-    return view('toppage/top');
-});
-
-Route::get('/index', function() {
-    return view('index/index');
-});
-
-Route::get('/saunadata', function() {
-    return view('index/saunadata');
-});
-
-Route::get('/saunaname', function() {
-    return view('experience/saunaname');
-});
-
-Route::get('/saunaname/new', function() {
-    return view('experience/saunaname_new');
-});
+Route::group(['middleware' => 'auth'], function(){
+    Route::get('/','ToppageController@show');
+    Route::get('/toppage', 'ToppageController@show');
+    Route::get('/user', 'UserController@show');
+    Route::get('index', 'SaunaDataController@showindex');
+    Route::get('index/saunadata', 'SaunaDataController@showdetail');
+    Route::get('saunaname', 'SaunaNameController@show');
+    Route::get('saunaname/new', 'SaunaNameController@shownew');
+    Route::post('saunaname/new', 'SaunaNameController@create');
+    Route::get('saunaexperience', 'SaunaExperienceController@show');
+    });
 
 
-Route::get('/saunaexperience', function() {
-    return view('experience/saunaexperience');
+Route::get('/home' , function() {
+    return view('home');
 });
 
 Auth::routes();
