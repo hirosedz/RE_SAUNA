@@ -38,6 +38,6 @@ class SaunaNameController extends Controller
         $saunaname->user_id = $request->user_id;
         $saunaname->save();
 
-        return redirect("saunaexperience");
+        return redirect("experience/saunaname");
     }
 }
